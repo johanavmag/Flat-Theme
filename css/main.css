@@ -97,7 +97,7 @@
 }
 /*------------FIN BG-TIGER------------*/
 /*------------LATEST PROYECT------------*/
-.btn, .btn-default{
+.btn-red .btn, .btn-red .btn-default{
 	background-color: #ff4d4d!important;
 	border:.1em solid #ff1a1a;
 }
@@ -155,7 +155,7 @@
 	margin-left: -30%;
 	
 }
-.input-group-addon{
+footer .input-group-addon{
 	background-color: #ff3333 !important;
 	border:transparent;
 	opacity: .8;
