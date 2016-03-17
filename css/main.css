@@ -176,7 +176,7 @@ footer .input-group-addon{
 }
 @media screen and (max-width: 600px) {
 	.bg-marino1 ul{
-	margin-left: -10%;
+	margin-left: -10% !important;
 	}
 	.small-txt{
 	margin-left: -30%; 
@@ -198,6 +198,7 @@ footer .input-group-addon{
 /*---------FIN FOOTER ----------*/
 /*-----------------------FIN JOHANA VARGAS--------------------------*/
 
+<<<<<<< HEAD
 /* ----------------------Main de Elisa Martinez-------------------- */
 /*-----------GLOBAL----------------*/
 body{
@@ -257,3 +258,120 @@ body{
 	color: gray;
 }
 /* -------------------------Fin de main de Elisa Martinez------------------------- */
+=======
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*....................................LOS BLOGS POR TAYDE ................................*/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.cuad1{
+	background-color: white;
+	padding:2% 2%;
+	width: 100%;
+}
+.cuad2{
+	background-color: white;
+	padding:0% 0%;
+	width: 100%;
+	margin-bottom: 5%;
+}
+.img1{
+	width: 100%;
+	height: 320px;
+}
+.img2{
+	width: 100%;
+	height: 150px;
+	border-radius: 15%;
+	padding: 3%;
+	margin-left: 5%
+}
+.iconitos{
+	color:gray;
+	font-size: 10px;
+}
+
+
+a.input-group-addon:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#blog ul>li>a {
+	color: #34495e;
+}
+
+#blog ul>li>a:hover {
+	text-decoration: none;
+}
+
+.status small {
+	color: #999;
+	margin: 0 1% 0 0;
+}
+
+#blog .img-thumbnail {
+	padding: 0;
+	border-radius: 6px;
+}
+
+#blog .radius {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#blog .btn.btn-default {
+	border-radius: 4px;
+}
+
+#blog .btn.btn-default a, #blog .btn.btn-default a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+span.btn.btn-xs.btn-primary {
+	border-radius: 6px;
+	margin: .20em 0;
+	padding: 2px 5px;
+}
+
+#blog .pagination>li>a:hover {
+	background-color: #34495e;
+	color: #fff;
+}
+.media .icon {
+	width: 68px;
+	height: 68px;
+	padding: 13px 15px;
+	border-radius: 100%;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+
+a.icon-repeat, .media-heading small {
+	color: #34495e;
+}
+
+a.icon-repeat:hover {
+	text-decoration: none;
+}
+
+.well {
+	box-shadow: none;
+	border: none;
+}
+
+button.btn.btn-danger {
+	border-radius: 6px;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+button.btn.btn-primary {
+	border-radius: 6px;
+	padding: 5%;
+	margin-bottom: 10px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*.................................FIN DE LOS BLOGS POR TAYDE ............................*/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+>>>>>>> 1bdfe8fcde8f91cce7ed45c970774ee49c95d8d0
