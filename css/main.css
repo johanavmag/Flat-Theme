@@ -88,7 +88,7 @@
 	margin-left: 30%;
 }
 .bg-tiger{
-	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/FlatTheme/images/slider/bg1.jpg");
+	background-image: url("../images/slider/bg1.jpg");
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -197,3 +197,63 @@
 }
 /*---------FIN FOOTER ----------*/
 /*-----------------------FIN JOHANA VARGAS--------------------------*/
+
+/* ----------------------Main de Elisa Martinez-------------------- */
+/*-----------GLOBAL----------------*/
+body{
+	background-color:  #f2f2f2;
+}
+#subtitulo{
+	background-color: #05e176;
+	height: 150px;
+}
+.text-white{
+	color: #fff;
+}
+.sub-menu{
+	margin-top: 4%;
+}
+.mt-2{
+	margin-top: 2%;
+}
+/*---------Team------------*/
+#team{
+	margin-bottom: 4%;
+}
+.perfil{
+	border:5px solid #fff;
+	border-radius: 50%;
+}
+.cargo{
+	color: gray;
+	margin-top: -4%;
+}
+/*----------Iconos de social media---------*/
+#team .icon-stack{
+	font-size: 15px !important;
+	padding: 2%;
+}
+#team .facebook > .icon-circle{
+	color: #3b5998;
+}
+#team .google-plus > .icon-circle{
+	color: #dd4b39;
+}
+#team .twitter > .icon-circle{
+	color:  #55acee;
+}
+#team .linkedin > .icon-circle{
+	color:#007bb5  ;
+}
+/* --------------Iconos de servicios------------------ */
+#servicios{
+	margin:2% 0;
+}
+.icon-stack{
+	font-size: 40px !important;
+	padding: 2%;
+}
+.icon-circle{
+	color: gray;
+}
+/* -------------------------Fin de main de Elisa Martinez------------------------- */
