@@ -1,0 +1,199 @@
+/*---------DEFAULT CSS -----------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*-----------------------JOHANA VARGAS------------------------------*/
+/*-------------Header--------------*/
+*{
+	font-family: 'Roboto', serif;
+}
+.icon-blue{
+	color: #00e6ac;
+	font-size: 1em;
+}
+.text-white{
+	color: white !important;
+}
+.bg-marino{
+	background-color:#1c334a;
+}
+.bg-marino h2{
+	font-weight: bolder;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color: #fff;
+	background-color: #0e1925 !important;
+}
+.navbar-nav{
+ 	margin-top: 2em !important;
+ }
+.bg-verde{
+ 	background-color: #05e176;
+ 	padding: 1%;
+ }
+ /*------FIN DE HEADER------*/
+.form{
+ 	width: 90%;
+ 	border-radius: .2em;
+ 	border:.1em solid #bfbfbf;
+ 	padding: .5em;
+ 	margin-bottom: 5%;
+}
+ .bg-gray{
+ background-color: #f2f2f2;
+ padding: 5%;
+}
+ .text-marino{
+ 	color:#1f4060;
+}
+ .btn{
+ 	font-size: 120%;
+}
+ .big{
+ 	margin-top: 15%;
+ 	padding-bottom: 12em;
+}
+.bg-images{
+	padding: 2%;
+	padding-bottom: .3%;
+	background-color: #fff;
+	margin:.5%;
+	width: 30%;
+}
+.imgport{
+	width: 100%;
+	height: 100%;
+}
+/*----------BACKGROUND TIGER-----------*/
+.icons-circle{
+	margin-top: 4%;
+	background-color: #037d42;
+	border-radius: 3em;
+	padding: 4%;
+	width: 5em;
+}	
+.fa-facebook{
+	margin-left: 30%;
+}
+.bg-tiger{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/FlatTheme/images/slider/bg1.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 37em;
+	padding-top: 15em;
+}
+/*------------FIN BG-TIGER------------*/
+/*------------LATEST PROYECT------------*/
+.btn, .btn-default{
+	background-color: #ff4d4d!important;
+	border:.1em solid #ff1a1a;
+}
+.text-oxford{
+	color: #595959;
+}
+.bg-images1{
+	padding: 2%;
+	padding-bottom: .3%;
+	background-color: #fff;
+	margin:.5%;
+	width: 32%;
+}
+.bg-images1 h5{
+	font-weight: bolder !important;
+}
+/*----------FIN LATEST PROYECT------------*/
+/*----------BG RED------------*/
+.bg-red{
+	background-color:#ff4d4d; 
+}
+.brdr-left{
+	border-left: .4em solid white;
+}
+.brdr-left p{
+	font-size: 75%;
+	font-weight: lighter;
+}
+/*----------FIN BG RED------------*/
+/*--------- FOOTER ----------*/
+ .bg-marino1{
+ 	background-color: #23415c;
+}
+ .pd-5{
+ 	padding-top: 5%;
+ 	padding-bottom: 5%;
+}
+.text-trans{
+	opacity: .5;
+}
+.bg-marino1 h4{
+	margin-bottom: 8%;
+}
+.bg-marino1 ul{
+	list-style-type: none;
+	margin-left: -25%;
+}
+.small-txt{
+	font-size: 95%;
+	margin-left: -10%; 
+	margin-top: -1%;
+}
+.img-blog-foot{
+	margin-bottom:40%;
+	margin-left: -30%;
+	
+}
+.input-group-addon{
+	background-color: #ff3333 !important;
+	border:transparent;
+	opacity: .8;
+}
+.pd-2{
+	padding: 2%;
+}
+.footerfin nav ul, .bg-verde nav ul{
+	list-style-type: none;
+}
+.footerfin nav li, .bg-verde nav li {
+	float: right;
+	display: inline;
+	margin-right: 6%;
+}
+.footerfin nav li :hover, .bg-verde nav li :hover{
+	text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+	.bg-marino1 ul{
+	margin-left: -10%;
+	}
+	.small-txt{
+	margin-left: -30%; 
+	margin-bottom: 25%;
+	}
+	.bg-images h4{
+		font-size: 1em !important;
+	}
+	.bg-tiger{
+	background-size: cover;
+}
+	.bg-red h4{
+		font-size:90%;
+	}
+	.pd-6{
+		padding: 6%;
+	}
+}
+/*---------FIN FOOTER ----------*/
+/*-----------------------FIN JOHANA VARGAS--------------------------*/
